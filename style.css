@@ -1,0 +1,981 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-image: url(./images/banner.jpg);
+    width: 100%;
+    height: 100%;
+}
+.navbar{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.navbar .nav1{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.navbar .image{
+    width: 70px;
+    height: 70px;
+}
+.navbar .nav2 {
+    display: flex;
+    align-items: center;
+    justify-content: end; 
+}
+.navbar .nav2 ul{
+    width: 750px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; 
+    flex-wrap: wrap;
+    color: white;
+    list-style-type: none;
+    font-size: 18px;
+    text-decoration: none;
+}
+.hero{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; 
+    flex-wrap: wrap;
+}
+.hero .hero1{
+    width: 530px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly; 
+    flex-wrap: wrap;
+    color: white;
+}
+.hero .hero1 h2{
+    font-size: 42px;
+    width: 580px;
+}
+.hero .hero1 h1{
+    font-size: 80px;
+    width: 580px;
+}
+.hero .hero1 p{
+    width: 450px;
+    font-size: 19px;
+}
+.hero .hero1 .wrap {
+    width: 400px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap !important;
+    justify-content: space-evenly; 
+}
+.hero .hero1 div button{
+    width: 185px;
+    height: 50px;
+    color: white;
+    border: 2px solid white;
+    background: transparent;
+    cursor: pointer;
+    transition: 0.5s all ease-in-out;
+}
+.hero .hero2{
+    width: 600px;
+    height: 200px;
+}
+.hero .hero1 div button:hover{
+    background-color: #48ca95;
+}
+.cards{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; 
+    flex-wrap: wrap;
+    margin: 50px 0;
+
+}
+.cards .card{
+    width: 370px;
+    height: 400px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly; 
+    border: 2px solid #48ca95;
+    border-radius: 10px;
+}
+.cards .card .img{
+    width: 80px;
+    height: 100px;
+}
+.cards .card p{
+    width: 370px;
+    font-size: 20px;
+    line-height: 30px;
+     margin-left: 20px;
+    
+}
+.text{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(212, 204, 204);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.text p{
+    width: 230px;
+    height: 30px;
+    font-size: 30px;
+    border-bottom:1px solid #48ca95 ;
+    padding-bottom: 40px;
+}
+.rows{
+    width: 100%;
+    background-color: rgb(212, 204, 204);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.rows .baba{
+    width: 1000px;
+    background-color:white;
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap; 
+  
+}
+.row{
+    width: 1000px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+}
+.rows .row .row-1{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.rows .row .row-1 button{
+    width: 150px;
+    height: 40px;
+    background-color: rgb(20, 20, 20);
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    transition: 0.5s all ease-in-out;
+}
+.rows .row .row-1 button:hover{
+    background-color: #48ca95;
+    color: white;
+  
+}
+.rows button{
+    width: 190px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    border: 1px solid #48ca95;
+  
+}
+.rows .end-button{
+    margin: 30px 0;
+}
+.sec4{
+    width: 100%;
+    height: 600px; 
+
+    /* background-image: url(./images/cross.png);
+    background-size:cover ; */
+    background-color: #4843a3;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    flex-wrap: wrap;
+
+}
+.sec4 .son1{
+    width: 450px;
+    height: 300px;
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    justify-content: space-evenly;
+} 
+.sec4 .img{
+    width: 650px;
+    height: 300px;
+}
+
+
+.sec4 .son1 h1{
+    height: 100px;
+    font-size:60px;
+    width: 450px;
+}
+.sec4 .son1 button{
+    width: 200px;
+    height: 50px;
+    background-color: #48ca95;
+    color: white;
+    transition: 0.5s al ease-in-out;
+    
+}
+.sec4 .son1 button:hover{
+    background-color: #000000;
+    color: #48ca95;
+}
+.sec5{
+    width: 100%;
+    height: 500px;
+    margin: 20px auto;
+     display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.sec5 .bab {
+    height: 480px;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.sec5 h2{
+    width: 300px;
+    margin: 20px auto;
+    font-size: 40px;
+    border-bottom:1px solid #48ca95 ;
+    
+}
+.sec5 h3{
+    width: 230px;
+    height: 30px;
+    font-size: 30px;
+    
+}
+.sec5 img{
+    width: 50px;
+    height: 40px;
+    
+}
+.sec5 p{
+    width: 500px;
+   
+    line-height: 20px;
+}
+.form{
+    width: 100%;
+    height: 768px;
+    background-color: #4843a3;
+    color: white;
+}
+
+.form form{
+    width: 700px;
+    height: 520px;
+    border: 3px solid white;
+    margin: 40px auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+
+}
+.form  form input{
+    width: 600px;
+    height: 70px;
+    margin-top: 15px;
+    background: none;
+    border: 2px solid white;
+}
+.form  form textarea{
+    width: 600px;
+    height: 100px;
+    margin-top: 15px;
+    background: none;
+    border: 2px solid white;
+    
+}
+.form  form button{
+    width: 140px;
+    height: 50px;
+    background-color: #48ca95;
+    color: white;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+.form input::placeholder{
+    color: white;
+    font-weight: bold;
+   padding-left: 20px;
+   font-size: 16px;
+}
+.form textarea::placeholder{
+    color: white;
+    font-weight: bold;
+   padding-left: 20px;
+ padding-top: 35px;
+ font-size: 16px;
+}
+.form h2{
+    width: 340px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    border-bottom:1px solid white ;
+    margin: 20px auto 100px auto;
+    padding-top: 70px;
+   
+
+}
+footer{
+    width: 100%;
+    background-image:url(./images/footer.jpg) ;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+.father-foot{
+   
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    border-bottom: 2px solid white;
+    flex-wrap: wrap;
+    
+
+}
+.s-screen{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.father-foot .f-son1 .pargraph-1{
+   width: 200px;
+   line-height: 25px;
+}
+.father-foot .f-son1 .pargraph-2{
+    width: 120px;
+    line-height: 25px;
+}
+.f-son1{
+    width: 270px;
+     height: 200px; 
+    /* height: max-content; */
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+.f-son1 form{
+   height: 110px;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.f-son1 form input{
+    width: 180px;
+    height: 35px;
+    border-radius: 10px;
+}
+.f-son1 form button{
+    width: 80px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: #48ca95;
+    color: white;
+}
+
+.f-son1 .icons{
+    width: 200px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;   
+}
+.f-son1 .icons i{
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 9px;
+
+}
+.son-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+.son-footer i{
+    width: 20px;
+}
+.son-footer p{
+    width: 480px;
+}
+@media(min-width: 320px) and (max-width: 480px){
+    .hero .hero1{
+        align-items: center;
+    }
+    .hero .hero1 h2{
+        font-size: 20px;
+     width: 300px;
+     margin-left: -7px;
+        
+    }
+    .hero .hero1 h1{
+        font-size: 45px;
+      width: 300px;
+      margin-left: -10px;
+       
+        
+    }
+    .hero .hero1 p{
+        width: 290px;
+        line-height: 20px;
+        font-size: 16px;
+        margin-left: -10px;
+        
+    }
+     .hero .hero1 .wrap {
+        
+        display: flex;
+        flex-direction: column;
+        align-items: start !important;
+        justify-content: space-evenly;
+        width: 300px !important;
+    } 
+    .hero1 .wrap button{
+        height: 35px !important;
+       
+     
+    }
+    .nav1 , .nav2{
+        width: 320px;
+
+    }
+    .navbar .nav1{
+       justify-content: start;
+       margin:0 0 10px 10px;
+
+    }
+    .navbar .image{
+        margin-right: 20px;
+    }
+       
+    .navbar .nav2 ul{
+      width: 300px;
+        display: flex;
+        align-items: start;
+        justify-content: space-evenly; 
+        flex-direction: column;
+        font-size: 16px;
+        margin-right: 10px;
+    
+    }
+   .hero2{
+    width: 300px !important;
+    height: 150px !important;
+    margin-right: 50px !important;
+   }
+   .cards{
+    height: calc(100% + 150px);
+   }
+   .cards .card{
+    width: 300px;
+    height: 300px;
+    margin-top: 20px;
+
+   }
+   .cards .card p{
+    width: 280px;
+    font-size: 18px;
+    line-height: 20px;
+    margin-left: 10px;
+   }
+   .sec4{
+    height: 600px;
+   }
+   .sec4 .son1{
+    width: 85%;
+   height: 300px;
+   margin-top: -20px;
+} 
+.sec4 .img{
+    width: 300px;
+    height: 200px;
+}
+
+.sec4 .son1 h1{
+    font-size:26px;
+    width: 100%;
+}
+.sec4 .son1 h2{
+   font-size: 20px;
+}
+.sec4 .son1 button{
+    width: 200px;
+    margin-right: 50px;
+    height: 50px;
+    margin-top: -50px;
+    
+    
+}
+.sec5{
+    height: 450px;
+}
+.sec5 h2 {
+    font-size: 30px;
+    width: 230px;
+   
+}
+.sec5 h3{
+    width: 170px;
+}
+.sec5 .bab{
+    height: 450px;
+    align-items: center;
+}
+.sec5 p{
+    width: 300px;
+   text-align: center;
+}
+.rows .end-button{
+    margin:0;
+}
+.form {
+    height: 600px;
+}
+.form form{
+    width: 300px;
+    height: 430px;
+   
+   
+}
+.form h2{
+    width: 260px;
+    font-size: 30px;
+    margin-bottom: 5px;
+    margin-top: 0px;
+   
+}
+footer{
+    height: calc(100% + 120px);
+}
+.father-foot{
+    width: 300px;
+    height: 850px;
+}
+.form form input ,.form form textarea {
+    width: 280px;
+}
+.son-footer p{
+    width: 240px;
+}
+.row{
+    width: 320px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+   
+}
+.rows{
+    height: 1900px;
+}
+.rows .baba{
+    height: 1880px;
+    width: 80%;
+}
+.row{
+    width: 80%;
+}
+.s-screen {
+    flex-direction: column;
+}
+}
+@media(min-width: 481px) and (max-width: 768px){
+    .hero .hero1{
+        align-items: center;
+    }
+    .hero .hero1 h2{
+        font-size: 30px;
+         width: 300px;  
+    }
+    .hero .hero1 h1{
+        font-size: 55px;
+      width: 300px; 
+    }
+    .hero .hero1 p{
+        width: 410px;
+        line-height: 25px;
+        font-size: 20px;     
+    }
+     .hero .hero1 .wrap {
+        width: 480px !important;
+    } 
+    .hero1 .wrap button{
+        height: 35px !important;
+    }
+    .nav1 , .nav2{
+        width: 480px;
+    }
+    .navbar .nav1{
+       justify-content: center;
+    }
+    .navbar .image{
+        margin-right: 20px;
+    }
+    .navbar .nav2 ul{
+      width: 480px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly; 
+        flex-direction: column;
+        font-size: 16px;
+    }
+   .hero2{
+    width: 480px !important;
+    height: 150px !important;
+    margin-right: 50px !important;
+   }
+   .cards{
+    height: calc(100% + 170px);
+    margin-bottom: 20px;
+   }
+   .cards .card{
+    height: 300px;
+    margin-top: 20px;
+    width: 390px;
+   }
+   .cards .card p{
+    font-size: 19px;
+    line-height: 25px;
+    text-align: center;
+    margin-left: 0px;
+    
+   }
+   .sec4{
+    height: 600px;
+   }
+   .sec4 .son1{
+    width: 320px;
+   height: 300px;
+   margin-top: -20px;
+} 
+.sec4 .img{
+    width: 450px;
+    height: 220px;
+}
+
+.sec4 .son1 h1{
+  
+    font-size:40px;
+    width: 300px;
+}
+.sec4 .son1 h2{
+  
+    font-size:25px;
+    width: 350px;
+}
+.sec4 .son1 button{
+   margin-top: -50px;
+}
+.sec5{
+    height: 500px;
+}
+.sec5 h3{
+    width: 170px;
+}
+.sec5 .bab{
+    height: 500px;
+    align-items: center;
+}
+.sec5 p{
+    width: 450px;
+   text-align: center;
+}
+.rows .end-button{
+    margin:20px;
+}
+.form {
+    height: 600px;
+    
+}
+.form form{
+    width: 450px;
+    height: 450px;
+    
+   
+}
+.form h2{
+    width: 300px;
+    font-size: 33px;
+     margin-bottom: 5px;
+    margin-top: 0px; 
+    padding-bottom: 5px;
+    padding-top: 30px;
+   
+}
+footer{
+    height: calc(100% + 120px);
+}
+.father-foot{
+    width: 480px;
+    height: 850px;
+}
+.form form input ,.form form textarea {
+    width: 370px;
+}
+.son-footer p{
+    width: 370px;
+}
+.row{
+    width: 320px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+   
+}
+.rows{
+    height: 1900px;
+}
+.rows .baba{
+    height: 1880px;
+    width: 80%;
+}
+.s-screen {
+    flex-direction: column;
+}
+}
+@media(min-width: 769px) and (max-width: 1200px){
+    .hero .hero1{
+        align-items: center;
+    }
+    .hero .hero1 h2{
+        font-size: 40px;
+         width: 450px;  
+         text-align: center;
+    }
+    .hero .hero1 h1{
+        font-size: 70px;
+      width: 430px; 
+      text-align: center;
+    }
+    .hero .hero1 p{
+        width: 430px;
+        line-height: 25px;
+        font-size: 20px;     
+    }
+    .hero .hero1 .wrap{
+        justify-content: space-between;
+        width: 430px;
+    } 
+    .hero1 .wrap button{
+        height: 40px !important;
+        
+    }
+    .navbar .nav1{
+       justify-content: center;
+    }
+    .navbar .image{
+        margin-right: 20px;
+    }
+    .navbar .nav2 ul{
+        width: 480px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly; 
+        flex-direction: column;
+        
+    }
+   .hero2{
+    width: 480px !important;
+    height: 150px !important;
+    margin-right: 50px !important;
+   }
+   .cards{
+    height: calc(100% + 170px);
+    margin-bottom: 20px;
+   }
+   .cards .card{
+    height: 300px;
+    margin-top: 20px;
+   }
+   .cards .card p{
+    font-size: 19px;
+    line-height: 25px;
+    text-align: center;
+    margin-left: 0px;
+   }
+   .sec4{
+    height: 600px;
+   }
+   .sec4 .son1{
+    align-items: center;
+   height: 300px;
+   margin-top: -20px;
+} 
+.sec4 .img{
+    width: 450px;
+    height: 220px;
+}
+
+.sec4 .son1 h1{
+  
+    font-size:45px;
+    width: 450px;
+    text-align: center;
+}
+.sec4 .son1 h2{
+  
+    font-size:30px;
+    width: 450px;
+    text-align: center;
+}
+.sec4 .son1 button{
+   margin-top: -50px;
+}
+.sec5{
+    height: 500px;
+}
+.sec5 h3{
+    width: 170px;
+}
+.sec5 .bab{
+    height: 500px;
+    align-items: center;
+}
+.sec5 p{
+    width: 450px;
+   text-align: center;
+}
+.rows .end-button{
+    margin:20px;
+}
+
+.form {
+    height: 650px;
+    
+}
+.form form{
+    width: 550px;
+    height: 500px;
+    
+   
+}
+.form h2{
+    width: 300px;
+    font-size: 33px;
+     margin-bottom: 5px;
+    margin-top: 0px; 
+    padding-bottom: 5px;
+    padding-top: 30px;
+   
+}
+footer{
+    height: calc(100% + 120px);
+}
+.father-foot{
+    width: 480px;
+    height: 500px;
+}
+.form form input ,.form form textarea {
+    width: 450px;
+}
+.father-foot .s-screen{
+    width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly
+}
+
+.son-footer p{
+    width: 420px;
+    text-align: center;
+}
+.son-footer i{
+    text-align: center;
+    margin-right: -22px;
+}
+.row{
+    width: 320px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+   
+}
+.rows{
+    height: 1900px;
+}
+.rows .baba{
+    height: 1880px;
+    width: 80%;
+}
+}
+/* @media(min-width: 1025px) and (max-width: 1200px){
+    .hero .hero1{
+        width: 480px;
+    }
+    .hero .hero2{
+        width: 540px;
+    }
+    .cards .card {
+        height: 330px;
+    }
+    .navbar .nav1{
+        width: 100px;
+    }
+    /* .nav2{
+
+    } */
+    /* .sec4 .img {
+        width: 550px;
+        height: 300px;
+    }
+    .sec4 .son1 h1 {
+        font-size: 55px;
+        font-weight: lighter;
+    }
+    .sec4 .son1 h2{
+        font-size: 35px;
+        font-weight: lighter;
+    }
+}  */
